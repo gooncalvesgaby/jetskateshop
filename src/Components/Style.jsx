@@ -1,6 +1,5 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
-export const Header = styled.h1`
-    color:pink;
-    
+export const Header = styled.img`
+ heigth: 5rem;
 `
