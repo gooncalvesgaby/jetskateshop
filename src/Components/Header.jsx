@@ -1,12 +1,14 @@
 import React from "react"
-import * as S from "./Style.jsx"
+import * as S from "./HeaderStyle.jsx"
 import Skate from "../assets/skate.jpg"
 
 function Header() {
     return(
-        <S.Header>
+        <S.StyleHeader>
             <S.Img src={Skate} alt="imagem de um skate" />
-        </S.Header>
+            <S.H1>WELCOME TO JETSKATESHOP</S.H1>
+        </S.StyleHeader>
+
     )
 }
 
