@@ -25,7 +25,15 @@ animation-iteration-count: infinite, infinite;
     from{color: #6d6b6beb}
     to{color: #fff}
 }
-`
 
+@keyframes H2{
+    0%{margin-Left: 0%}
+    100%{margin-Left: 65%}
+}
+`
+export const StyledSection = styled.section`
+display: flex;
+flex-direction: column;
+`
 
 
