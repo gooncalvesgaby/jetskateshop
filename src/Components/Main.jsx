@@ -4,14 +4,17 @@ import Camisetas from "../assets/camiseta.jpg"
 
 function Main() {
     return(
-        <S.StyleMain>
-            <S.Div>
-                <S.H2>LIQUIDAÇÃO</S.H2>
-            </S.Div>
-           <S.StyledSection>
-                <img src= {Camisetas} alt="camiseta" />
-           </S.StyledSection>
-        </S.StyleMain>
+        <S.MainStyle>
+            <S.StyledSection>
+                <S.Div>
+                    <S.H2>LIQUIDAÇÃO</S.H2>
+                </S.Div>
+            </S.StyledSection>
+
+            <S.StyledSection2>
+            
+            </S.StyledSection2>
+        </S.MainStyle>
 
     )
 }

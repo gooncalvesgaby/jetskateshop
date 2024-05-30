@@ -1,16 +1,25 @@
 import styled, { keyframes } from "styled-components"
 
-export const StyleMain = styled.main`
+export const MainStyle = styled.main`
+display: flex;
+`
+export const StyledSection = styled.section`
 display: flex;
 `
 
+export const StyledSection2 = styled.section`
+display: flex;
+overflow: hidden;
+`
+
 export const Div = styled.div`
-min-width: 100%;
+// min-width: 100%;
 background-color: black;
 height: 5rem;
 display: flex;
 justify-content: start;
 align-items: center;
+width: 100vw;
 `
 
 export const H2 = styled.h2`
@@ -31,9 +40,8 @@ animation-iteration-count: infinite, infinite;
     100%{margin-Left: 65%}
 }
 `
-export const StyledSection = styled.section`
-display: flex;
-flex-direction: column;
-`
+
+
+
 
 
