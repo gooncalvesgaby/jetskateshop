@@ -4,12 +4,7 @@ export const MainStyle = styled.main`
 display: flex;
 `
 export const StyledSection = styled.section`
-display: flex;
-`
-
-export const StyledSection2 = styled.section`
-display: flex;
-overflow: hidden;
+display: block;
 `
 
 export const Div = styled.div`
@@ -20,6 +15,23 @@ display: flex;
 justify-content: start;
 align-items: center;
 width: 100vw;
+`
+
+export const DivDois = styled.div`
+padding: 5%;
+`
+
+export const Img = styled.img`
+width: 10rem;
+margin: 5% 5%;
+`
+
+export const H3 = styled.h3`
+letter-spacing: 10px;
+font-family: cursive;
+display: flex;
+justify-content: center;
+font-weight: 800;
 `
 
 export const H2 = styled.h2`

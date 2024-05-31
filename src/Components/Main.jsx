@@ -9,13 +9,19 @@ function Main() {
                 <S.Div>
                     <S.H2>LIQUIDAÇÃO</S.H2>
                 </S.Div>
+                <S.DivDois>
+                    <S.H3>CAMISETAS</S.H3>
+                    <S.Img src={Camisetas} alt="imagem de uma camiseta" />
+                    <S.Img src={Camisetas} alt="imagem de uma camiseta" />
+                    <S.Img src={Camisetas} alt="imagem de uma camiseta" />
+                    <S.Img src={Camisetas} alt="imagem de uma camiseta" />
+                    <S.Img src={Camisetas} alt="imagem de uma camiseta" />
+                    <S.Img src={Camisetas} alt="imagem de uma camiseta" />
+                    <S.Img src={Camisetas} alt="imagem de uma camiseta" />
+                    <S.Img src={Camisetas} alt="imagem de uma camiseta" />
+                </S.DivDois>
             </S.StyledSection>
-
-            <S.StyledSection2>
-            
-            </S.StyledSection2>
         </S.MainStyle>
-
     )
 }
 
